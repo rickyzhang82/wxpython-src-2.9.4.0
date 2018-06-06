@@ -1,0 +1,117 @@
+overviews/richtextctrl.h:4143: warning: Found unknown command `\null'
+overviews/string.h:346: warning: explicit link request to 'wxSnprintf' could not be resolved
+overviews/string.h:346: warning: explicit link request to 'wxVsnprintf' could not be resolved
+wx/affinematrix2d.h:95: warning: Found unknown command `\t'
+wx/affinematrix2d.h:85: warning: Found unknown command `\t'
+wx/affinematrix2d.h:85: warning: Found unknown command `\t'
+wx/affinematrix2d.h:85: warning: Found unknown command `\t'
+wx/affinematrix2d.h:95: warning: Found unknown command `\t'
+wx/affinematrix2d.h:85: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:128: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:118: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:118: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:118: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:128: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:118: warning: Found unknown command `\t'
+wx/affinematrix2dbase.h:187: warning: argument 'p' of command @param is not found in the argument list of wxAffineMatrix2DBase::TransformDistance(const wxPoint2DDouble &src) const
+wx/affinematrix2dbase.h:187: warning: The following parameters of wxAffineMatrix2DBase::TransformDistance(const wxPoint2DDouble &src) const are not documented:
+  parameter 'src'
+wx/affinematrix2dbase.h:176: warning: argument 'p' of command @param is not found in the argument list of wxAffineMatrix2DBase::TransformPoint(const wxPoint2DDouble &src) const
+wx/affinematrix2dbase.h:176: warning: The following parameters of wxAffineMatrix2DBase::TransformPoint(const wxPoint2DDouble &src) const are not documented:
+  parameter 'src'
+wx/control.h:90: warning: The following parameters of wxControl::wxControl(wxWindow *parent, wxWindowID id, const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxDefaultSize, long style=0, const wxValidator &validator=wxDefaultValidator, const wxString &name=wxControlNameStr) are not documented:
+  parameter 'validator'
+wx/dir.h:225: warning: explicit link request to 'wxFILE_SEP_PATH' could not be resolved
+wx/dir.h:234: warning: explicit link request to 'wxFILE_SEP_PATH' could not be resolved
+wx/fileconf.h:34: warning: explicit link request to 'wxCONFIG_USE_LOCAL_FILE' could not be resolved
+wx/fileconf.h:37: warning: explicit link request to 'wxCONFIG_USE_GLOBAL_FILE' could not be resolved
+wx/valnum.h:307: warning: argument 'precision' of command @param is not found in the argument list of wxFloatingPointValidator< T >::wxFloatingPointValidator(ValueType *value=NULL, int style=wxNUM_VAL_DEFAULT)
+wx/graphics.h:1301: warning: argument 'radians' of command @param is not found in the argument list of wxGraphicsMatrix::Rotate(wxDouble angle)
+wx/graphics.h:1301: warning: The following parameters of wxGraphicsMatrix::Rotate(wxDouble angle) are not documented:
+  parameter 'angle'
+wx/event.h:3309: warning: explicit link request to 'wxHelpEventOrigin' could not be resolved
+wx/event.h:3309: warning: explicit link request to 'wxHelpEventOrigin' could not be resolved
+wx/event.h:3309: warning: explicit link request to 'wxHelpEventOrigin' could not be resolved
+wx/html/helpctrl.h:176: warning: Found unknown command `\enable'
+wx/iconbndl.h:115: warning: explicit link request to 'FALLBACK_NONE' could not be resolved
+wx/iconbndl.h:116: warning: explicit link request to 'FALLBACK_SYSTEM' could not be resolved
+wx/iconbndl.h:119: warning: explicit link request to 'FALLBACK_NEAREST_LARGER' could not be resolved
+wx/intl.h:445: warning: argument 'short' of command @param is not found in the argument list of wxLocale::Init(const wxString &name, const wxString &shortName=wxEmptyString, const wxString &locale=wxEmptyString, bool bLoadDefault=true)
+wx/intl.h:445: warning: The following parameters of wxLocale::Init(const wxString &name, const wxString &shortName=wxEmptyString, const wxString &locale=wxEmptyString, bool bLoadDefault=true) are not documented:
+  parameter 'shortName'
+wx/msgdlg.h:31: warning: found </div> at different nesting level (7) than expected (5)
+wx/msgdlg.h:81: warning: end of comment block while expecting command </div>
+wx/event.h:3718: warning: explicit link request to 'wxNavigationKeyEventFlags' could not be resolved
+wx/ribbon/toolbar.h:326: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolClientData(int tool_id) const
+wx/ribbon/toolbar.h:326: warning: The following parameters of wxRibbonToolBar::GetToolClientData(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:338: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolEnabled(int tool_id) const
+wx/ribbon/toolbar.h:338: warning: The following parameters of wxRibbonToolBar::GetToolEnabled(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:352: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolHelpString(int tool_id) const
+wx/ribbon/toolbar.h:352: warning: The following parameters of wxRibbonToolBar::GetToolHelpString(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:362: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolKind(int tool_id) const
+wx/ribbon/toolbar.h:362: warning: The following parameters of wxRibbonToolBar::GetToolKind(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:372: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolPos(int tool_id) const
+wx/ribbon/toolbar.h:372: warning: The following parameters of wxRibbonToolBar::GetToolPos(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:383: warning: argument 'toolId' of command @param is not found in the argument list of wxRibbonToolBar::GetToolState(int tool_id) const
+wx/ribbon/toolbar.h:383: warning: The following parameters of wxRibbonToolBar::GetToolState(int tool_id) const are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:420: warning: argument 'id' of command @param is not found in the argument list of wxRibbonToolBar::SetToolClientData(int tool_id, wxObject *clientData)
+wx/ribbon/toolbar.h:420: warning: The following parameters of wxRibbonToolBar::SetToolClientData(int tool_id, wxObject *clientData) are not documented:
+  parameter 'tool_id'
+  parameter 'clientData'
+wx/ribbon/toolbar.h:430: warning: The following parameters of wxRibbonToolBar::SetToolDisabledBitmap(int tool_id, const wxBitmap &bitmap) are not documented:
+  parameter 'bitmap'
+wx/ribbon/toolbar.h:441: warning: argument 'tool_Id' of command @param is not found in the argument list of wxRibbonToolBar::SetToolHelpString(int tool_id, const wxString &helpString)
+wx/ribbon/toolbar.h:441: warning: The following parameters of wxRibbonToolBar::SetToolHelpString(int tool_id, const wxString &helpString) are not documented:
+  parameter 'tool_id'
+wx/ribbon/toolbar.h:455: warning: The following parameters of wxRibbonToolBar::SetToolNormalBitmap(int tool_id, const wxBitmap &bitmap) are not documented:
+  parameter 'bitmap'
+wx/richtext/richtextctrl.h:499: warning: The following parameters of wxRichTextCtrl::SetFocusObject(wxRichTextParagraphLayoutBox *obj, bool setCaretPosition=true) are not documented:
+  parameter 'obj'
+wx/richtext/richtextctrl.h:2315: warning: argument 'id' of command @param is not found in the argument list of wxRichTextEvent::wxRichTextEvent(wxEventType commandType=wxEVT_NULL, int winid=0)
+wx/richtext/richtextctrl.h:2315: warning: The following parameters of wxRichTextEvent::wxRichTextEvent(wxEventType commandType=wxEVT_NULL, int winid=0) are not documented:
+  parameter 'winid'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:3504: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:3605: warning: argument 'parent' of command @param is not found in the argument list of wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard(const wxString &name, const wxString &label, int displayStyle=wxRICHTEXT_FIELD_STYLE_RECTANGLE)
+wx/richtext/richtextbuffer.h:3605: warning: The following parameters of wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard(const wxString &name, const wxString &label, int displayStyle=wxRICHTEXT_FIELD_STYLE_RECTANGLE) are not documented:
+  parameter 'name'
+wx/richtext/richtextbuffer.h:3621: warning: argument 'parent' of command @param is not found in the argument list of wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard(const wxString &name, const wxBitmap &bitmap, int displayStyle=wxRICHTEXT_FIELD_STYLE_NO_BORDER)
+wx/richtext/richtextbuffer.h:3621: warning: argument 'label' of command @param is not found in the argument list of wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard(const wxString &name, const wxBitmap &bitmap, int displayStyle=wxRICHTEXT_FIELD_STYLE_NO_BORDER)
+wx/richtext/richtextbuffer.h:3621: warning: The following parameters of wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard(const wxString &name, const wxBitmap &bitmap, int displayStyle=wxRICHTEXT_FIELD_STYLE_NO_BORDER) are not documented:
+  parameter 'name'
+  parameter 'bitmap'
+wx/richtext/richtextbuffer.h:3670: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/richtext/richtextprint.h:343: warning: Found unknown command `\showPrintDialog'
+wx/richtext/richtextprint.h:349: warning: Found unknown command `\showPrintDialog'
+wx/richtext/richtextbuffer.h:2046: warning: Found unknown command `\rect'
+wx/stopwatch.h:23: warning: explicit link request to 'QueryPerformanceCounter()' could not be resolved
+wx/textctrl.h:1308: warning: argument 'col' of command @param is not found in the argument list of wxTextCtrl::HitTest(const wxPoint &pt, long *pos) const
+wx/textctrl.h:1308: warning: argument 'row' of command @param is not found in the argument list of wxTextCtrl::HitTest(const wxPoint &pt, long *pos) const
+wx/textctrl.h:1308: warning: argument 'pos' of command @param is not found in the argument list of wxTextCtrl::HitTest(const wxPoint &pt, wxTextCoord *col, wxTextCoord *row) const
+wx/thread.h:1275: warning: argument 'waitMode' of command @param is not found in the argument list of wxThread::Wait(wxThreadWait flags=wxTHREAD_WAIT_BLOCK)
+wx/thread.h:1275: warning: The following parameters of wxThread::Wait(wxThreadWait flags=wxTHREAD_WAIT_BLOCK) are not documented:
+  parameter 'flags'
+wx/toolbar.h:876: warning: The following parameters of wxToolBar::SetToolClientData(int id, wxObject *clientData) are not documented:
+  parameter 'clientData'
+wx/toolbar.h:884: warning: The following parameters of wxToolBar::SetToolDisabledBitmap(int id, const wxBitmap &bitmap) are not documented:
+  parameter 'bitmap'
+wx/toolbar.h:914: warning: The following parameters of wxToolBar::SetToolNormalBitmap(int id, const wxBitmap &bitmap) are not documented:
+  parameter 'bitmap'
+wx/treelist.h:443: warning: The following parameters of wxTreeListCtrl::InsertItem(wxTreeListItem parent, wxTreeListItem previous, const wxString &text, int imageClosed=NO_IMAGE, int imageOpened=NO_IMAGE, wxClientData *data=NULL) are not documented:
+  parameter 'text'
+wx/webview.h:274: warning: The following parameters of wxWebView::New(wxWindow *parent, wxWindowID id, const wxString &url=wxWebViewDefaultURLStr, const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxDefaultSize, wxWebViewBackend backend=wxWEB_VIEW_BACKEND_DEFAULT, long style=0, const wxString &name=wxWebViewNameStr) are not documented:
+  parameter 'style'
+  parameter 'name'
+wx/wizard.h:522: warning: Illegal command \xrefitem as the argument of a \b command
+error: failed to run html help compiler on index.hhp
