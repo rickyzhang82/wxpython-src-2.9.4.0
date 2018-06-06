@@ -924,7 +924,7 @@ void wxWebViewWebKit::ClearHistory()
 wxVector<wxSharedPtr<wxWebViewHistoryItem> > wxWebViewWebKit::GetBackwardHistory()
 {
     wxVector<wxSharedPtr<wxWebViewHistoryItem> > backhist;
-    WebBackForwardList* history = [m_webView backForwardList];
+    WebBackForwardList* history = (WebBackForwardList *)[m_webView backForwardList];
     int count = [history backListCount];
     for(int i = -count; i < 0; i++)
     {
@@ -942,7 +942,7 @@ wxVector<wxSharedPtr<wxWebViewHistoryItem> > wxWebViewWebKit::GetBackwardHistory
 wxVector<wxSharedPtr<wxWebViewHistoryItem> > wxWebViewWebKit::GetForwardHistory()
 {
     wxVector<wxSharedPtr<wxWebViewHistoryItem> > forwardhist;
-    WebBackForwardList* history = [m_webView backForwardList];
+    WebBackForwardList* history = (WebBackForwardList *)[m_webView backForwardList];
     int count = [history forwardListCount];
     for(int i = 1; i <= count; i++)
     {
