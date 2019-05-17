@@ -16,6 +16,7 @@
     --with-libjpeg=builtin \
     --with-libpng=builtin \
     --with-libtiff=builtin \
+    --with-macosx-sdk=/Users/Ricky/repo/github/MacOSX-SDKs/MacOSX10.11.sdk \
     --with-macosx-version-min=10.9 \
     --with-opengl \
     --with-osx_cocoa \
