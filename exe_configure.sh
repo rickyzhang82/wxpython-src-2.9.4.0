@@ -10,7 +10,6 @@
     --enable-std_string \
     --enable-svg \
     --enable-unicode \
-    --enable-universal_binary=i386,x86_64 \
     --enable-webkit \
     --prefix=$HOME/.virtualenvs/Cura/ \
     --with-expat \
